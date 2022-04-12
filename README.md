@@ -7,7 +7,7 @@ USE DeliveryApp;
 CREATE TABLE RIDERS (
 Nombre varchar(100) NOT NULL,
 
-Fecha_de_inicio INT NOT NULL,
+Fecha_de_inicio date NOT NULL,
 
 Ciudad varchar(50) NOT NULL,
 
@@ -25,7 +25,7 @@ Order_ID INT NOT NULL,
 
 Ciudad varchar(50) NOT NULL,
 
-Fecha INT NOT NULL,
+Fecha date NOT NULL,
 
 Rider_ID INT NOT NULL,
 
@@ -41,7 +41,7 @@ Violation_ID INT NOT NULL,
 
 State varchar(100) NOT NULL,
 
-Fecha INT NOT NULL,
+Fecha date NOT NULL,
 
 Rider_ID INT NOT NULL,
 
@@ -71,7 +71,7 @@ CREATE TABLE SHIFTS (
 
 Shift_ID INT NOT NULL,
 
-Fecha INT NOT NULL,
+Fecha date NOT NULL,
 
 Ciudad varchar (50) NULL,
 
